@@ -1,0 +1,188 @@
+@font-face {
+  font-family: Feather;
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/fonts/feather.ttf) format("truetype");
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f5f4f8;
+  color: #5c5776;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+}
+
+.nav-icons-container {
+  width: 100px;
+  right: 0;
+}
+
+.bell-container, .avatar-container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.bi-bell {
+  color: #7e7e7e;
+}
+
+.avatar-container {
+  background-image: url(../imgs/avatar-1.jpg);
+  background-size: cover;
+}
+
+.hero-section {
+  background-color: rgb(117,89,264);
+}
+
+.hero-section p {
+  opacity: 0.5;
+  font-size: 1.2rem;
+}
+
+.hero-section button {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.75rem 1.25rem;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  background-color: #ffeeda;
+}
+
+.point-bell {
+  width: 12px;
+  height: 12px;
+  top: 0;
+  right: 0;
+  background-color: #754ffe;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.point-avatar {
+  width: 12px;
+  height: 12px;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(4, 189, 4);
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.offerts-section p {
+  font-size: 14px;
+}
+
+.container h2 {
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+.courses-section .stars {
+  color: rgb(255, 175, 80);
+  font-size: 14px;
+}
+
+.courses-section .price span {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(24, 17, 60);
+}
+
+.courses-section .price del {
+  font-size: 14px;
+  color: rgb(224, 0, 0);
+}
+
+.card {
+  height: 100%;
+}
+
+.card h3 {
+  color: #221755;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.card-footer .teacher {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+}
+
+.card-footer .teacher img {
+  margin-right: 10px;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.prev {
+  left: -10px;
+}
+
+.next {
+  right: -10px;
+}
+
+@media (min-width: 992px) {
+  .nav-icons-container {
+    top: -8px;
+    right: 0px;
+  }
+
+  .prev {
+    left: -40px;
+  }
+
+  .next {
+    right: -40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .nav-icons-container {
+    top: -48px;
+    right: 70px;
+  }
+
+  .prev {
+    left: -30px;
+  }
+
+  .next {
+    right: -30px;
+  }
+}
